@@ -308,9 +308,10 @@ color: white;
     font-size: 30px;
     display: flex;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 90px;
     color: rgb(131, 131, 131);
     transition: color .3s;
+   
 }
 .Subscription:hover{
     color: white;
