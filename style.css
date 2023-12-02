@@ -317,13 +317,15 @@ color: white;
 }
 .card{
 margin-top: 70px;
-height: 450px;
+height: 580px;
 display: flex;
 justify-content: space-evenly;
 }
-.card1{
+ /* Making The Colors in The Price Box */
+
+.card1{  
 margin-top: 70px;
-height: 450px;
+height: 500px;
 width: 300px;
 border-radius: 16px;
 display: flex;
@@ -332,8 +334,26 @@ justify-content: space-around;
 box-shadow: 0px 0px 10px black;
 position: relative;
 flex-direction: column;
+color: black;
+background-color: rgb(0, 0, 0);
+transition: color 0.5s;
+border: 2px solid rgba(251 , 255 , 0);
+transition: all .3s ease;
+cursor: pointer;
+animation: pricebox 1.2s infinite alternate;
 }
-
+  /* Adding Hover Effect to card1  */
+.card1:hover {
+    box-shadow: 0px 0px 30px rgb(146, 146, 146);
+}
+@keyframes pricebox {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-16px);
+    }
+  }
 .card1 h1{
     padding-top: 20px;
     color: white;
@@ -341,14 +361,16 @@ flex-direction: column;
     width: 100%;
 }
 .pack{
-    color: yellow;
+    color: rgb(0, 0, 0);
     border: 2px solid black;
     border-radius: 50%;
+    background-color: yellow;
     width: 140px;
     height: 137px;
     text-align: center;
     margin-left: 70px;
     position: relative;
+    margin-top: 40px;
 }
 .pack h2{
     margin-top: 37px;
@@ -357,12 +379,13 @@ flex-direction: column;
 }
 .pack p{
   margin-bottom: 30px;
+  color: #000000;
+  font-weight: 500;
 }
 .card2{
     margin-top: 70px;
-    height: 450px;
+    height: 500px;
     width: 300px;
-    border: 2px solid rgb(0, 0, 0);
     border-radius: 16px;
     display: flex;
     text-align: center;
@@ -370,17 +393,37 @@ flex-direction: column;
     box-shadow: 0px 0px 10px black;
     position: relative;
     flex-direction: column;
+    color: black;
+    background-color: rgb(0, 0, 0);
+    transition: color 0.5s;
+    border: 2px solid rgba(251 , 255 , 0);
+    transition: all .3s ease;
+    cursor: pointer;
+    animation: pricebox 1.2s infinite alternate;
     }
+      /* Adding Hover Effect to card2  */
+    .card2:hover {
+        box-shadow: 0px 0px 30px rgb(146, 146, 146);
+    }
+    @keyframes pricebox {
+        0% {
+          transform: translateY(0);
+        }
+        100% {
+          transform: translateY(-16px);
+        }
+      }
+
     .card2 h1{
         color: white;
         letter-spacing: 1px;
         width: 100%;
+        padding-top: 20px;
     }
     .card3{
         margin-top: 70px;
-        height: 450px;
+        height: 500px;
         width: 300px;
-        border: 2px solid rgb(0, 0, 0);
         border-radius: 16px;
         display: flex;
         text-align: center;
@@ -388,12 +431,39 @@ flex-direction: column;
         box-shadow: 0px 0px 10px black;
         position: relative;
         flex-direction: column;
+        color: black;
+        background-color: rgb(0, 0, 0);
+        transition: color 0.5s;
+        border: 2px solid rgba(251 , 255 , 0);
+        transition: all .3s ease;
+        cursor: pointer;
+        animation: pricebox 1.2s infinite alternate;
         }
+         /* Adding Hover Effect to card3  */
+        .card3:hover {
+            box-shadow: 0px 0px 30px rgb(146, 146, 146);
+        }
+        @keyframes pricebox {
+            0% {
+              transform: translateY(0);
+            }
+            100% {
+              transform: translateY(-16px);
+            }
+          }
         .card3 h1{
             padding-top: 20px;
             color: white;
             letter-spacing: 1px;
             width: 100%;
+        }
+        .perks{
+            display: flex;
+            justify-content: space-around;
+            height: 100px;
+            align-items: center;
+            position: relative;
+            margin-top: 25px;
         }
         .perks li {
             text-decoration: none;
@@ -402,17 +472,66 @@ flex-direction: column;
             text-align: center;
             display: flex;
             justify-content: center;
-            font-size: 13px;
+            font-size: 12px;
             margin-top: 4px;
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-between;
+            margin-top: 15px;
+           
         }
         
         .icons{
             margin-top: 3px;
-            font-size: 14px;
+            font-size: 12px;
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
+            margin-right: 20px;
         }
+        .Packtext1{
+            margin-right: 18px;
+        }
+        .Packtext3{
+            margin-right: 39px;
+        }
+        .Packtext5{
+            margin-right : 12px;
+        }
+        
+        .Packtext6{
+            margin-right : 52px;
+        }
+        .Packtext8{
+            margin-right : 38px;
+        }
+        .Packtext9{
+            margin-right : 6px;
+        }
+        
+        .btnn button{
+            color: rgb(0, 0, 0);
+            background-color: rgb(251, 255, 0);
+            outline: 0px;
+            border: 2px solid rgba(251 , 255 , 0);
+            border-radius: 14px;
+            transition: color 0.5s;
+            font-size: 13px;
+            width:100px;
+            height: 30px;
+            transition: all .3s ease;
+            text-align: center;
+            cursor: pointer;
+            font-weight: 500;
+            margin-bottom: 8px;
+        
+        }
+        .btnn button:hover{
+            color:rgba(251 , 255 , 0);
+            background: black;
+            box-shadow: 0 0 1rem rgba(251 , 255 , 0);
+        
+        }
+        
+        
+    
     
