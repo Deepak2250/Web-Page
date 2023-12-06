@@ -25,7 +25,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    position: absolute;
     margin-top: -80px;
    background: rgb(46,46,46);
     background: linear-gradient(90deg, rgba(46,46,46,1) 0%, rgba(0,0,0,1) 0%, rgba(16,17,17,1) 0%);
@@ -43,7 +43,7 @@ body{
     margin-top: 18px;
     align-self: flex-start;
     cursor: pointer;
-    position: fixed;
+    position: absolute;
     
 }
 
@@ -217,7 +217,7 @@ span{
 }
 article{
 width: 100%;
-height: 1600px;
+height: 700px;
 }
 .Reccomend{
     height: 130px;
@@ -301,6 +301,257 @@ color: white;
     box-shadow: 0 0 1rem rgba(251 , 255 , 0);
 
 }
+
+.testimonials{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans Kawi', sans-serif;
+    font-weight: 1000;
+    font-size: 37px;
+    background: rgb(255,251,251);
+    background: linear-gradient(90deg, rgba(255,251,251,1) 29%, rgba(139,137,137,1) 53%, rgba(0,0,0,1) 90%);
+    -webkit-background-clip:text;
+    color: transparent;
+}
+
+
+/* Adding The Bento Grid Style */
+
+.bento{
+    margin-top: 50px;
+    height: 610px;
+    display: grid;
+    grid-template-areas: "nav nav gap lol lol"
+                         "gop pop doo fax tax"
+                         "danix danix papa mummi mummi";
+    justify-content: center;
+    column-gap: 20px;
+   padding-bottom: -10px;
+}
+.bento1{
+    height: 140px;
+    width: 335px;
+    border-radius: 19px;
+    grid-area: nav;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0,0,0,1) 0%, rgba(16,17,17,1) 0%);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+.bento2{
+    height: 140px;
+    width: 350px;
+    border-radius: 19px;
+    grid-area: gap;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0,0,0,1) 0%, rgba(16,17,17,1) 0%);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.bento3{
+    height: 140px;
+    width: 335px;
+    border-radius: 19px;
+    grid-area: lol;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0,0,0,1) 0%, rgba(16,17,17,1) 0%);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.bento4{
+    height: 260px;
+    width: 350px;
+    border-radius: 19px;
+    grid-area: doo;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0,0,0,1) 0%, rgba(16,17,17,1) 0%);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.bento5{
+    height: 260px;
+    width: 155px;
+    border-radius: 19px;
+    grid-area: gop;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0,0,0,1) 0%, rgba(16,17,17,1) 0%);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+.bento6{
+    height: 260px;
+    width: 155px;
+    border-radius: 19px;
+    grid-area: pop;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0,0,0,1) 0%, rgba(16,17,17,1) 0%);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+.bento7{
+    height: 260px;
+    width: 155px;
+    border-radius: 19px;
+    grid-area: fax;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0,0,0,1) 0%, rgba(16,17,17,1) 0%);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+.bento8{
+    height: 260px;
+    width: 155px;
+    border-radius: 19px;
+    grid-area: tax;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0,0,0,1) 0%, rgba(16,17,17,1) 0%);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.bento9{
+    height: 140px;
+    width: 340px;
+    border-radius: 19px;
+    grid-area: danix;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0,0,0,1) 0%, rgba(16,17,17,1) 0%);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.bento10{
+    height: 140px;
+    width: 350px;
+    border-radius: 19px;
+    grid-area: papa;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0,0,0,1) 0%, rgba(16,17,17,1) 0%);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+.bento11{
+    height: 140px;
+    width: 340px;
+    border-radius: 19px;
+    grid-area: mummi;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0,0,0,1) 0%, rgba(16,17,17,1) 0%);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+/* Adding The Icons Style >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.*/
+
+#PLATFORMS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-family: 'Noto Sans Kawi', sans-serif;
+    font-weight: 1000;
+    font-size: 35px;
+    background: rgb(255,251,251);
+    background: linear-gradient(90deg, rgba(255,251,251,1) 29%, rgba(139,137,137,1) 53%, rgba(0,0,0,1) 90%);
+    -webkit-background-clip:text;
+    color: transparent;
+}
+
+.platforms{
+    height: 130px;
+    width: 100%;
+    position: relative;
+    white-space: nowrap;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<< Adding Icons Animation>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.platforms::before{
+background: rgb(46,46,46);
+background: linear-gradient(90deg, rgba(46,46,46,1) 0%, rgba(0,0,0,1) 0%, rgba(16,17,17,1) 0% , rgba(0, 0, 0, 0)100%);;        
+content: '';
+height: 100%;
+width: 15%;
+position: absolute;
+z-index: 1;
+}
+.platforms::after{
+background: rgb(46,46,46);
+background: linear-gradient(to left, rgba(46,46,46,1) 0%, rgba(0,0,0,1) 0%, rgba(16,17,17,1) 0% , rgba(0, 0, 0, 0)100%);;   
+content: '';
+height: 100%;
+width: 20%;
+position: absolute;
+z-index: 1;
+}
+.platforms::before{
+    left: 0;
+    top: 0;
+}
+.platforms::after{
+    right: 0;
+    top: 0;
+}
+.platformslogo{
+    width: calc(250px * 12);
+    display: flex;
+    margin-top: 20px;
+    animation: slidelogo 16s linear infinite;
+    position: relative;
+    overflow: hidden;
+    --offset: 3px;
+    
+}
+@keyframes slidelogo {
+0%{
+transform: translateX(0);
+}
+100%{
+    transform: translateX(calc(-250px*6));
+}
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Setting Up The Images>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.platformslogo img{
+margin-top: 7px;
+width: 100%;
+filter: grayscale(100%);
+transition: 0.5s;
+}
+.platformslogo img:hover{
+filter: none;
+}
+
+.platforms .slide img{
+    width: 70%;
+}
+.slide{
+
+height: 60px;
+width: 350px;
+display: flex;
+justify-content: center;
+align-items: center;
+perspective: 100px;
+z-index: 1;
+}       
+.slide1{
+width: 180px;
+}
+.slide2{
+width: 200px;
+}
+.slide3{
+width: 60px;
+}
+.slide4{
+width: 75px;
+}
+.slide5{
+width: 170px;
+}
+.slide6{
+width: 65px;
+}
+
+/* Setting Up The Packs */
+
 .plan{
     height: 700px;
 }
@@ -534,78 +785,3 @@ animation: pricebox 1.2s infinite alternate;
             background: black;
             box-shadow: 0 0 1rem rgba(251 , 255 , 0);
         }
-        #Platforms{
-            display: flex;
-            justify-content: center;
-            font-size: 30px;
-            font-family: 'Roboto Condensed', sans-serif;
-            font-weight: 800;
-            color: rgb(131, 131, 131);
-            transition: color .3s;
-            margin-top: 70px;
-        }
-        #Platforms:hover{
-            color: white;
-        }
-        .platforms{
-            height: 350px;
-            width: 90%;
-            overflow: hidden;
-            position: relative;
-            white-space: nowrap;
-            display: grid;
-            place-items: center;
-            margin: auto;
-        }
-        .platformslogo{
-            width: calc(250px * 12);
-            display: flex;
-            margin-top: 50px;
-            animation: slidelogo 5s linear infinite;
-        }
-        .platforms .slide img{
-            width: 90%;
-        }
-        @keyframes slidelogo {
-            0%{
-            transform: translateX(0);
-            }
-            100%{
-                transform: translateX(calc(-250px*6));
-            }
-        }
-       
-      .platformslogo img{
-        
-        width: 100%;
-       filter: grayscale(100%);
-      }
-      .slide{
-        height: 350px;
-        width: 350px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 15px;
-        perspective: 100px;
-      }
-       
-      .slide1{
-       width: 180px;
-      }
-      .slide2{
-        width: 200px;
-       }
-       .slide3{
-        width: 150px;
-       }
-       .slide4{
-        width: 75px;
-       }
-       .slide5{
-        width: 170px;
-       }
-       .slide6{
-        width: 65px;
-       }
-      
