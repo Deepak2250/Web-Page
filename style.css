@@ -197,6 +197,8 @@ span{
    justify-content: space-evenly;
    z-index: 0;
 }
+
+
 .images img{
    border-radius: 15px;
    height: 200px;
@@ -229,16 +231,17 @@ height: 700px;
     position: relative;
     transition: background 1s;
 }
-.trend h5{
-    font-weight: 700;
-    font-size: 30px;
-    color: rgb(146, 146, 146);
-    letter-spacing: 1px;
-    margin-top: 140px;
-    transition: color 0.5s;
-}
-.trend h5:hover{
-color: white;
+.trend{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans Kawi', sans-serif;
+    font-weight: 1000;
+    font-size: 33px;
+    background-image: linear-gradient(90deg, rgb(224, 224, 224) 29%, rgba(139,137,137,1) 53%, rgba(0,0,0,1) 150%);
+    -webkit-background-clip:text;
+    color: transparent;
 }
 .music{
     height: 500px;
@@ -302,155 +305,24 @@ color: white;
 
 }
 
-.testimonials{
-    margin-top: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Noto Sans Kawi', sans-serif;
-    font-weight: 1000;
-    font-size: 37px;
-    background: rgb(255,251,251);
-    background: linear-gradient(90deg, rgba(255,251,251,1) 29%, rgba(139,137,137,1) 53%, rgba(0,0,0,1) 90%);
-    -webkit-background-clip:text;
-    color: transparent;
-}
-
-
-/* Adding The Bento Grid Style */
-
-.bento{
-    margin-top: 50px;
-    height: 610px;
-    display: grid;
-    grid-template-areas: "nav nav gap lol lol"
-                         "gop pop doo fax tax"
-                         "danix danix papa mummi mummi";
-    justify-content: center;
-    column-gap: 20px;
-   padding-bottom: -10px;
-}
-.bento1{
-    height: 140px;
-    width: 335px;
-    border-radius: 19px;
-    grid-area: nav;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0,0,0,1) 0%, rgba(16,17,17,1) 0%);
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);
-}
-.bento2{
-    height: 140px;
-    width: 350px;
-    border-radius: 19px;
-    grid-area: gap;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0,0,0,1) 0%, rgba(16,17,17,1) 0%);
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);
-}
-
-.bento3{
-    height: 140px;
-    width: 335px;
-    border-radius: 19px;
-    grid-area: lol;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0,0,0,1) 0%, rgba(16,17,17,1) 0%);
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);
-}
-
-.bento4{
-    height: 260px;
-    width: 350px;
-    border-radius: 19px;
-    grid-area: doo;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0,0,0,1) 0%, rgba(16,17,17,1) 0%);
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);
-}
-
-.bento5{
-    height: 260px;
-    width: 155px;
-    border-radius: 19px;
-    grid-area: gop;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0,0,0,1) 0%, rgba(16,17,17,1) 0%);
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);
-}
-.bento6{
-    height: 260px;
-    width: 155px;
-    border-radius: 19px;
-    grid-area: pop;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0,0,0,1) 0%, rgba(16,17,17,1) 0%);
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);
-}
-.bento7{
-    height: 260px;
-    width: 155px;
-    border-radius: 19px;
-    grid-area: fax;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0,0,0,1) 0%, rgba(16,17,17,1) 0%);
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);
-}
-.bento8{
-    height: 260px;
-    width: 155px;
-    border-radius: 19px;
-    grid-area: tax;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0,0,0,1) 0%, rgba(16,17,17,1) 0%);
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);
-}
-
-.bento9{
-    height: 140px;
-    width: 340px;
-    border-radius: 19px;
-    grid-area: danix;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0,0,0,1) 0%, rgba(16,17,17,1) 0%);
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);
-}
-
-.bento10{
-    height: 140px;
-    width: 350px;
-    border-radius: 19px;
-    grid-area: papa;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0,0,0,1) 0%, rgba(16,17,17,1) 0%);
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);
-}
-.bento11{
-    height: 140px;
-    width: 340px;
-    border-radius: 19px;
-    grid-area: mummi;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0,0,0,1) 0%, rgba(16,17,17,1) 0%);
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);
-}
 /* Adding The Icons Style >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.*/
 
 #PLATFORMS{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 190px;
     font-family: 'Noto Sans Kawi', sans-serif;
     font-weight: 1000;
     font-size: 35px;
     background: rgb(255,251,251);
-    background: linear-gradient(90deg, rgba(255,251,251,1) 29%, rgba(139,137,137,1) 53%, rgba(0,0,0,1) 90%);
+    background: linear-gradient(90deg, rgb(224, 224, 224) 29%, rgba(139,137,137,1) 53%, rgba(0,0,0,1) 90%);
     -webkit-background-clip:text;
     color: transparent;
 }
 
 .platforms{
+    margin-top: 40px;
     height: 130px;
     width: 100%;
     position: relative;
@@ -511,7 +383,9 @@ transform: translateX(0);
 .platformslogo img{
 margin-top: 7px;
 width: 100%;
-filter: grayscale(100%);
+filter: saturate(4);
+filter: brightness(1);
+filter: contrast(1);
 transition: 0.5s;
 }
 .platformslogo img:hover{
@@ -556,12 +430,17 @@ width: 65px;
     height: 700px;
 }
 .Subscription{
-    font-size: 25px;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 90px;
-    color: rgb(131, 131, 131);
-    transition: color .3s;
+    font-family: 'Noto Sans Kawi', sans-serif;
+    font-weight: 1000;
+    font-size: 35px;
+    background: rgb(255,251,251);
+    background: linear-gradient(90deg, rgb(236, 236, 236) 29%, rgba(139,137,137,1) 53%, rgba(0,0,0,1) 90%);
+    -webkit-background-clip:text;
+    color: transparent;
 }
 .Subscription:hover{
     color: white;
@@ -785,3 +664,80 @@ animation: pricebox 1.2s infinite alternate;
             background: black;
             box-shadow: 0 0 1rem rgba(251 , 255 , 0);
         }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+           margin-top: 110px;
+        }
+    .container h1{
+    font-family: 'Noto Sans Kawi', sans-serif;
+    font-weight: 1000;
+    font-size: 35px;
+     background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgb(185, 185, 185) 29%, rgba(139,137,137,1) 50%, rgb(151, 151, 151) 90%);
+    -webkit-background-clip:text;
+    color: transparent;
+    }
+    .faq{
+        max-width: 700px;
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid white;
+        cursor: pointer;
+    
+
+    }
+
+    .questions{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+    .questions h3{
+        font-family: 'Noto Sans Kawi', sans-serif;
+    font-weight: 1000;
+    font-size: 25px;
+     background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgb(185, 185, 185) 29%, rgb(202, 202, 202) 50%, rgb(187, 187, 187) 90%);
+    -webkit-background-clip:text;
+    color: transparent;
+    }
+    .answer{
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-in;
+    }
+    .answer p{
+        background: rgb(255, 255, 255);
+        background: linear-gradient(90deg, rgb(185, 185, 185) 29%, rgb(202, 202, 202) 50%, rgb(187, 187, 187) 90%);
+        -webkit-background-clip:text;
+        color: transparent;
+        padding-top: 10px;
+        line-height: 1.6;
+        font-size: 20px;
+    }
+    .faq.active .answer{
+        max-height: 300px;
+        animation:  fade 0.7s ease-in;
+    }
+    .faq.active svg{
+        transform: rotate(180deg);
+    }
+    svg{
+        transition: transform 0.5s ease-in;
+    }
+
+    @keyframes fade{
+        from{
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        to{
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
