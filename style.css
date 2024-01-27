@@ -12,7 +12,8 @@ font-family: 'Poppins', sans-serif;
 
 }
 body{
-    
+    overflow-x: hidden;
+    overflow-y:visible;
     height: 100vh;
     background: rgb(46,46,46);
     background: linear-gradient(90deg, rgba(46,46,46,1) 0%, rgba(0,0,0,1) 0%, rgba(16,17,17,1) 0%);
