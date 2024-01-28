@@ -12,7 +12,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Noto+Sans+Kawi&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,900;1,300&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
 <body>
@@ -30,8 +30,9 @@
         <a href="#">Sound Effects</a>
         <a href="#plan">Pricing</a>
         <a href="#">About</a>
-        <a href="#" class="btn"><Button>Login</Button></a>
+        <a href="#" class="btn" id="mainloginbutton"><Button>Login</Button></a>
      </div>
+
      <div class="Main"><h8>Royalty free <span>Music</span> and Sound<br><span>Effects</span> for Your Creative Videos</h8>
         <div class="musiclogo"><img src="Image/image.png" alt="">
      </div>
@@ -43,6 +44,31 @@
         <i class="fa fa-check tickcolor"></i><b>Exclusive music</b>
      </div>
     </header>
+
+      <!-- Login Form -->
+
+      <div class="parentContainer">
+        <div class="cross"><i class='bx bx-x crossButton' ></i></div>
+      <div class="Logincontainer">
+        <form action="">
+            <h2>Login</h2>
+            <div>
+                <label for="Gmail">Email</label>
+                <input type="email" placeholder="Email" required>
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" placeholder="Email" required>
+            </div>
+            <div class="register">
+                <p>Don't Have a Account <a href="#">Register</a></p>
+            </div>
+            <button class="loginButton">Login</button>
+        </form>
+    </div>
+      </div>
+
+
     <main>
         <div class="Attribute">
             <div id="Music-List"><h7>Music List</h7>
