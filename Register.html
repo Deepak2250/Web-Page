@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Noto+Sans+Kawi&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,900;1,300&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/gsap@3.9.0/dist/gsap.min.js"></script>
+    <style>
+     *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+     }
+     body{
+        overflow-x: hidden;
+    overflow-y:visible;
+    height: 100vh;
+    background: rgb(46,46,46);
+    background: linear-gradient(90deg, rgba(46,46,46,1) 0%, rgba(0,0,0,1) 0%, rgba(16,17,17,1) 0%);
+     }
+
+     h1{
+        text-align: center;
+        margin-top: 70px;
+        color: white;
+        font-family: 'Noto Sans Kawi', sans-serif;
+        font-weight: 600;
+        font-size: 37px;
+     }
+     .container{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50% , -190%);
+     }
+     .fileds{
+        display: inline-block;
+     }
+     .secondcontainer{
+        position: absolute;
+        top: 35%;
+        left: 34%;
+     }
+     .fileds2 input{
+        margin-top: 50px;
+        width: 400px;
+        height: 35px;
+        border-radius: 50px;
+        border: none;
+        border: 2px solid white;
+        background-color: transparent;
+        padding: 0px 10px 0 45px;
+     }
+     .fileds input{
+        width: 190px;
+        height: 35px;
+        border-radius: 50px;
+        border: 2px solid rgb(255, 255, 255);
+        margin-left: -5px;
+        background-color: transparent;
+        padding: 0px 10px 0 45px;
+        color: rgb(255, 255, 255);
+     }
+     ::-webkit-input-placeholder{
+        color: rgb(226, 226, 226);
+     }
+
+     .fileds i{
+        position: relative;
+        right: 180px;
+        color: white;
+        top: 2px;
+     }
+
+     .fileds2 i{
+        position: relative;
+        right: 390px;
+        color: white;
+        top: 2px;
+     }
+      
+     .btn{
+        margin-top: 50px;
+        width: 400px;
+        height: 35px;
+        border-radius: 50px;
+        border: none;
+        border: 2px solid white;
+        background-color: white;
+        cursor: pointer;
+     }
+     .Login{
+      position: relative;
+      left: 65%;
+      top: 8px;
+      color: white;
+      font-family: 'Noto Sans Kawi', sans-serif;
+        font-weight: 100;
+        font-size: 12px;
+     }
+     .Login a{
+        color: yellow;
+        text-decoration: none ;
+     }
+    
+    </style>
+</head>
+<body>
+    <div class="overlay"></div>
+    <h1>Sign In</h1>
+    <div class="container">
+        <form action="">
+        <div  class="fileds">
+            <input type="text" placeholder="First Name " required >  <i class='bx bxs-user'></i> 
+        </div>
+        <div class="fileds">
+            <input type="text" placeholder="Second Name" required> <i class='bx bxs-user'></i>
+        </div>
+    </div>
+    <div class="secondcontainer">
+        <div class="fileds2">
+            <input type="text" placeholder="Email" required><i class='bx bx-envelope' ></i>
+        </div>
+        <div class="fileds2">
+            <input type="text" placeholder="password" required><i class='bx bx-lock-alt' ></i>
+        </div>
+
+        <button class="btn">Register</button>
+
+        <div class="fileds2">
+            <div class="Login">
+                Have an Account <a href="Website.Html">Login</a>
+            </div>
+        </div>
+    </div>
+</form>
+<script src="script.js"></script>
+</body>
+</html>
